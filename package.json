@@ -1,0 +1,16 @@
+{
+  "name": "pop-out",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify -x jquery index.js > popout-jquery.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ei-dialog": "^1.0.4",
+    "stringify": "^5.2.0"
+  }
+}
